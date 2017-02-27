@@ -1,0 +1,325 @@
+/*
+
+Colours:
+
+Light yellow:   #FFF653;
+Mid yellow:     #CEC441;
+
+Light grey:     #C6C6C6;
+Mid grey:       #AAAAAA;
+Dark grey:      #999999;
+
+*/
+
+/*******************
+  BASE SETUP
+*******************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+/*******************
+  FONT SETUP
+*******************/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,
+ .teasers-block h2,
+ .strapline p {
+ 	font-family: 'Merriweather', serif;
+ }
+
+ a {
+ 	font-family: 'Oswald', sans-serif;
+ 	font-weight: bold;
+ 	text-transform: uppercase;
+ }
+
+/*******************
+  GENERAL SETUP
+*******************/
+
+html {
+	font-size: 20px;
+}
+
+.cta {
+	color: black;
+	text-decoration: none;
+	padding: 0.75em 0em;
+	width: 100%;
+	display: block;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.cta-grey {
+	border-bottom: 3px solid #999999;
+	background-color: #C6C6C6;
+}
+
+.cta-yellow {
+	border-bottom: 3px solid #CEC441;
+	background-color: #FFF653;
+}
+
+/*******************
+  HEADER
+*******************/
+
+header {
+	background-color: black;
+	border-bottom: 5px solid #FFF653;
+	padding: 0.5em 0;
+}
+
+header nav {
+	float: right;
+	padding-bottom: 10px;
+}
+
+header ul {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+header li {
+	display: inline-block;
+	margin: 0 0.3em;
+}
+
+header a {
+	color: white;
+	text-decoration: none;
+}
+
+header li:nth-child(n+4) a {
+	text-transform: none;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 a {
+	color: #FFF653;
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 1.5rem;
+	font-family: 'Merriweather', serif;
+	text-transform: none;
+}
+
+header nav li a:hover {
+	color: yellow;
+}
+
+
+/*******************
+  STRAPLINE
+*******************/
+
+.strapline {
+	background-color: #C6C6C6;
+	text-align: center;
+	padding: 1em 0;
+}
+
+.strapline p {
+	margin: 0;
+	font-style: italic;
+	font-size: 1.2rem;
+}
+
+del {
+	color: #999999;
+}
+
+ins {
+	text-decoration: none;
+	position: relative;
+}
+
+ins:before {
+	content: "";
+	height: 3px;
+	background-color: #FFF653;
+	width: 100%;
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+}
+
+/*******************
+  INTRO
+*******************/
+
+.intro {
+	background-image: url("../images/coworking.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 1.5em 0;
+}
+
+.intro-content {
+	background-color: rgba(255,255,255,0.8);
+	width: 325px;
+	padding: 1rem;
+	margin-left: auto;
+}
+
+.intro-content h2 {
+	margin-top: 0;
+}
+
+.intro-content p {
+	line-height: 1.6;
+}
+
+
+/*******************
+  TEASERS
+*******************/
+
+.teasers {
+	padding: 1em 0;
+}
+
+.teasers ul {
+	padding: 0;
+	margin: 0;
+}
+
+.teasers-block {
+	list-style: none;
+	float: left;
+	width: 33.33333%;
+	padding: 0 1em;
+}
+
+footer {
+	background: black;
+	color: white;
+	padding: 2% 3%;
+	clear: both;
+}
+
+
+/*DEVELOPERS PAGE*/
+
+.profile {
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+/*.profile ul {
+	padding: 10px;
+}*/
+
+.profiles {
+	background-color: #C6C6C6;
+	padding: 1px;
+}
+
+.profiles li {
+	list-style-type: none;
+}
+
+.card {
+	float: left;
+	width: 24%;
+	margin: 5px;
+	background-color: white;
+}
+
+.card img {
+	max-width: 100%;
+}
+
+article {
+	padding: 6px;
+}
+
+figure {
+	margin: 6px;
+}
+
+.tags {
+	padding-left: 10px;
+}
+
+.tags li {
+	float: left;
+	background: #666;
+	margin: 0 5px 5px 0;
+	color: white;
+	padding: 1px 12px;
+	border-radius: 100px;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.content a {
+	color: black;
+	margin-top: 50px;
+	text-decoration: none;
+	padding: 0.75em 0em;
+	width: 100%;
+	display: block;
+	text-align: center;
+	border-radius: 3px;
+	border-bottom: 3px solid #CEC441;
+	background-color: #FFF653;
+	font-size: 18px;
+}
+
+.clearfix {
+	padding-left: 1rem;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
